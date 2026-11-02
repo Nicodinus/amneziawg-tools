@@ -302,7 +302,7 @@ cmd_usage() {
 
 	  CONFIG_FILE is a configuration file, whose filename is the interface name
 	  followed by \`.conf'. Otherwise, INTERFACE is an interface name, with
-	  configuration found at /etc/amnezia/INTERFACE.conf. It is to be readable
+	  configuration found at /etc/amnezia/amneziawg/INTERFACE.conf. It is to be readable
 	  by awg(8)'s \`setconf' sub-command, with the exception of the following additions
 	  to the [Interface] section, which are handled by $PROGRAM:
 
